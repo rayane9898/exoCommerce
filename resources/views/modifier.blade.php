@@ -2,7 +2,7 @@
 @include('components/naviguation')
 
 
-<form action="{{route("update", $fruit->id)}}" method="POST">
+<form action="{{route("updateFruit",$fruit->id)}}" method="POST">
     @csrf
     <section class="text-center">
         <div class="container">
@@ -16,11 +16,6 @@
 
             <div class="text-center my-3">
                 <button type="submit" class="btn btn-danger">Modifier</button>
-
             </div>
         </section>
-
-
-
-
 </form>

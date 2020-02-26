@@ -8,8 +8,12 @@
 <link rel="stylesheet" href="{{asset("css/app.css")}}">
 </head>
 <body>
+
     @include('components/naviguation')
+
     <section class="container">
+        <h1 class="text-center my-5">Inscris-toi vite à la scéance d'information  😎💻</h1>
+
 
         <div class="text-center my-5">
     
@@ -23,6 +27,7 @@
             <thead>
                 <tr>
                     <th colspan="6">
+
                         <h3 class="text-center">Tableau dynamique de fruits</h3>
                     </th>
                 </tr>
@@ -46,6 +51,7 @@
                 <a href="{{route("delete", $fruit->id)}}"><button type="button" class="btn btn-danger">Supprimer</button></a>
                 </td>
                 </tr>
+
                     
                 @endforeach
  

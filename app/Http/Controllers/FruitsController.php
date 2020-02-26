@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Fruit;
+use App\Fruit; 
 
 class FruitsController extends Controller
 {
@@ -41,6 +41,7 @@ class FruitsController extends Controller
         $fruit->delete();
         return redirect()-> route("welcome");
     }
+    
 
     //
 }

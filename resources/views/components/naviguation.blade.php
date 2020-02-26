@@ -11,9 +11,10 @@
         <a class="nav-link" href="{{route("welcome")}}">Fruits</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="">Légumes</a>
+        <a class="nav-link" href="{{route("legumes")}}">Légumes</a>
         </li>
 
+            
       </ul>
     </div>
   </nav>
